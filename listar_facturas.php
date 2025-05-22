@@ -41,7 +41,9 @@ $result = mysqli_query($conn, $sql);
                         <td>{$row['TOTAL_GENERAL']}</td>
                         <td>
                             <a href='editar_factura.php?id=$id'>Editar</a> |
-                            <a href='eliminar_factura.php?id=$id' onclick=\"return confirm('¿Eliminar esta factura?');\">Eliminar</a>
+                        <a href='eliminar_factura.php?id=$id' onclick=\"return confirm('¿Eliminar esta factura?');\">Eliminar</a> |
+                    <a href='imprimir_factura.php?id=$id' target='_blank'>Imprimir</a>
+
                         </td>
                       </tr>";
             }
