@@ -1,6 +1,6 @@
 # Aplicación para crear reportes
 
-Este proyecto es una aplicación web desarrollada en PHP que nos permite crear y reportes de factura.
+Este proyecto es una aplicación web desarrollada en PHP que nos permite crear reportes de factura.
 En este, hacemos uso de tecnologías como
 - **PHP**
 - **MySQL**
